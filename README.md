@@ -23,7 +23,7 @@ The second parameter determines whether the data is parsed immediately. `false` 
 
 ### Methods
 #### parse()
-Takes the raw file and returns an array of `IcyEvent`s
+Takes the raw file and generates several arrays of `IcyEvent`s available on the `IcyS.events` property
 
 #### sortEvents(array: events)
 Given an array of IcyEvents, this will return a copy of that array with the IcyEvents sorted in ascending order by start time.
