@@ -68,7 +68,7 @@ All events that are happening on the current date
 ## IcyEvent
 ### Methods
 #### isToday()
-Returns `true` if the event's start time is on today, or the start time is before today and the end time is on or after today
+Returns `true` if the event's start time is on today, or the start time is before today and the end time is on today
 
 #### happened()
 Returns `true` if the event's start time and end time are before the current time
