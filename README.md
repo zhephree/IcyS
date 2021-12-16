@@ -107,4 +107,4 @@ The title of the event
 #### others....
 All other properties from the event are parsed as strings, unless they are numbery or booleany, then they are parsed as such. For example, `PRIORITY: 5` would parse the 5 as a number, and `X-MICROSOFT-DONOTFORWARDMEETING: FALSE` would parse the FALSE as a boolean `false`.
 
-All fields are returned as all lowercase, with any dashes intact.
+All field names are returned as all lowercase, with any dashes intact.
